@@ -1,0 +1,259 @@
+:root {
+  --background-color: #0b0a33;
+  --text-color: #e8e8e8;
+  --hover-color: #292863;
+  --border-color: #5b5a9e;
+  --poll-bg-color: #505091;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+body, section, select {
+	color: var(--text-color) !important;
+	background-color: var(--background-color)!important;
+}
+
+nav, header {
+	background-color: var(--background-color) !important;
+	border-color: var(--background-color) !important;
+}
+
+h1,h2,h2>a,h3 {
+	color: var(--text-color)!important;
+}
+
+div {
+	background-color: var(--background-color) !important;
+	color: var(--text-color) !important;
+	border-color: var(--border-color) !important;
+}
+
+footer {
+	background-color: var(--background-color)!important;
+}
+
+div.header-title-text {
+	color: var(--text-color) !important;
+}
+
+div.chat-bubble {
+	background-color: var(--hover-color) !important;
+}
+
+div.chat-bubble > div > div  {
+	background-color: var(--hover-color) !important;
+}
+
+div.chat-bubble > div > div > p  {
+	background-color: var(--hover-color) !important;
+}
+
+div.chat-bubble > div > div > a  {
+	background-color: var(--hover-color) !important;
+}
+
+span {
+	color: var(--text-color) !important;
+}
+
+button, a.pg-btn, a.btn, a.btn-green {
+	background-color: var(--background-color) !important;
+	color: var(--text-color)  !important;
+	border-color: var(--border-color) !important;
+}
+
+p {
+	color: var(--text-color)  !important;
+}
+
+li {
+	color: var(--text-color) !important;
+}
+
+li.menu-item > a {
+	color: var(--text-color) !important;
+}
+
+ul {
+	border-color: var(--background-color) !important;
+}
+
+a.active {
+	color: var(--text-color) !important;
+	border-bottom: white !important;
+}
+
+a.tab {
+	color: var(--text-color) !important;
+}
+
+a.tab:hover {
+	background-color: var(--hover-color)!important;
+	color: var(--text-color)!important;
+}
+
+a.notification-item {
+	border-color: var(--border-color)!important;
+	background-color: var(--background-color)!important;
+}
+
+a.card, a.college-card {
+	background-color: var(--background-color)!important;
+}
+
+a.ais-pagination--link {
+	border-color: var(--border-color)!important;
+	color: var(--text-color)!important;
+}
+
+.article-card.card:before, .article-card.comments-area:before, .article-card.college-card:before {
+	background: var(--border-color)!important;
+}
+
+.flex-container {
+	color: var(--text-color) !important;
+	background-color: var(--background-color) !important;
+	border-color: var(--border-color) !important;
+}
+
+.comment-item:hover {
+ 	background-color: #c7c3c3 !important;
+}
+
+.card-list-item, .list-card-item, .list-card-footer {
+	background-color: var(--background-color) !important;
+	border-color: var(--border-color) !important;
+}
+
+.comment-item:hover {
+	background-color: var(--hover-color) !important;
+}
+
+.user_mention, .pg-breadcrumbs>span>a, a.text-muted, span.tags-links>a, span.cat-links>a, span.author>a, span.posted-on>a>time, div.text-muted>a {
+	color: #c7c3c3 !important;
+}
+
+.entity-content.truncated:after {
+	background: rgb(11,10,51) !important;
+	background: linear-gradient(to bottom, rgba(11,10,51,1) 0%, rgba(41,40,99,1) 42%) !important;
+}
+
+div.answered > div.progress-bg, div.answeredNotSelected > div.progress-bg {
+	background-color: var(--poll-bg-color) !important;
+}
+
+div:not(.answeredNotSelected):not(.answered) > div.progress-bg {
+	display: none;
+}
+
+.header-title-text > a {
+	color: var(--text-color) !important;
+}
+
+div.show > a {
+	color: var(--text-color)!important;
+	background-color: var(--hover-color)!important;
+}
+
+div.show > a:hover {
+	background-color: var(--border-color)!important;
+	color: var(--text-color)!important;
+}
+
+#primary-menu > li.current-menu-item > a {
+	border-bottom-color: var(--border-color)!important;
+}
+
+#primary-menu > li > a:hover,  .pg-navbar-menu > li > a:hover {
+	background-color: var(--hover-color)!important;
+	color: var(--text-color)!important;
+	border-bottom-color: var(--border-color)!important;
+}
+
+.pg-navbar-submenu {
+	background-color: var(--hover-color)!important;
+}
+
+div.notifications-dropdown-content > div > a {
+	background-color: var(--background-color)!important;
+}
+
+span.text-muted > span {
+	background-color: var(--background-color)!important;
+}
+
+a.read-more-pill {
+	background-color: var(--hover-color)!important;
+	color: var(--text-color)!important;
+}
+
+ul.tabs > li > a {
+	color: var(--text-color)!important;
+}
+
+small {
+	color: var(--text-color)!important;
+}
+
+input, textarea, label {
+	background-color: var(--background-color)!important;
+	color: var(--text-color)!important;
+	border-color: var(--border-color)!important;
+}
+
+p > input {
+	border-color: var(--border-color)!important;
+}
+
+ul.react-autosuggest__suggestions-list > li:hover {
+	background-color: var(--hover-color)!important;
+	color: var(--text-color)!important;
+}
+
+a.read-link {
+	background-color: var(--background-color)!important;
+	color: var(--text-color)!important;
+}
+
+.ais-pagination--item__active > a {
+	background-color: var(--border-color)!important;
+}
+
+div.yarpp-related > div > ul > li > a, .widget>ul>li>a {
+	background-color: var(--background-color)!important;
+	color: var(--text-color)!important;
+}
+
+h3 > a {
+	color: var(--text-color)!important;
+}
+
+div.progress-container {
+	border-top-color: var(--text-color)!important;
+}
+
+div.progress-bar > a {
+	color: var(--text-color)!important;	
+}
+
+section {
+	border-color: var(--border-color)!important;
+}
+
+svg:not(.gold) {
+	fill: var(--text-color)!important;
+}
