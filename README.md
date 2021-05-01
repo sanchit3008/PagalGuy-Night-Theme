@@ -1,16 +1,21 @@
 # PagalGuy-Night-Theme
-Code for the Chrome extension to enable night theme on pagalguy.com. To install on Mozilla Firefox, visit the [Official Mozilla Add On Store Page](https://addons.mozilla.org/addon/pagalguy-night-mode/).
+Code for the Chrome extension to enable night theme on pagalguy.com. 
 
-If you would like to use this theme, download this repository and follow [these steps](https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually).
+For Firefox, visit the [Official Mozilla Add On Store Page](https://addons.mozilla.org/addon/pagalguy-night-mode/).
 
-1. Home Page
+If you would like to use this on Google Chrome, download this repository and follow [these steps](https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually) to install the extension manually.
 
-![Home Page](https://i.ibb.co/Xb1531X/image.png "Home Page")
+<h3>Samples -</h3> 
 
-2. Actions Menu
+<ol>
+<li>Home Page
 
-![Action Menu](https://i.ibb.co/dpnHGxt/image.png "Actions Menu")
+![Home Page](https://i.ibb.co/Xb1531X/image.png "Home Page")</li>
 
-3. Notifications Shade
+<li>Actions Menu
 
-![Notifications Shade](https://i.ibb.co/StmtqNX/image.png "Notifcations Shade")
+![Action Menu](https://i.ibb.co/dpnHGxt/image.png "Actions Menu")</li>
+
+<li>Notifications Shade
+
+![Notifications Shade](https://i.ibb.co/StmtqNX/image.png "Notifcations Shade")</li>
