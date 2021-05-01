@@ -12,6 +12,10 @@ If you would like to use this on Google Chrome, download this repository and fol
 
 ![Home Page](https://i.ibb.co/Xb1531X/image.png "Home Page")</li>
 
+<li>Direct Messages
+
+![Direct Messages](https://i.ibb.co/560t1vy/image.png "Direct Messages")</li>
+
 <li>Actions Menu
 
 ![Action Menu](https://i.ibb.co/dpnHGxt/image.png "Actions Menu")</li>
