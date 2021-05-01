@@ -54,20 +54,12 @@ div.header-title-text {
 	color: var(--text-color) !important;
 }
 
-div.chat-bubble {
+div.chat-bubble,  div.chat-bubble > div > div, div.chat-bubble > div > div > p, div.chat-bubble > div > div > a {
 	background-color: var(--hover-color) !important;
 }
 
-div.chat-bubble > div > div  {
-	background-color: var(--hover-color) !important;
-}
-
-div.chat-bubble > div > div > p  {
-	background-color: var(--hover-color) !important;
-}
-
-div.chat-bubble > div > div > a  {
-	background-color: var(--hover-color) !important;
+div.chat-bubble-self > div,  div.chat-bubble-self > div > div > div, div.chat-bubble-self  > div > div > div > p, div.chat-bubble-self > div > div > div > a {
+	background-color: var(--border-color)!important;
 }
 
 div.page-section-description > a {
