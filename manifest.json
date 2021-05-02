@@ -10,9 +10,9 @@
     "default_title": "PagalGuy Night Mode"
   },
   "author": "Sanchit Agarwal",
-  "permissions": [ "tabs", "activeTab", "https://*.pagalguy.com/*"],
+  "permissions": [ "https://*.pagalguy.com/*"],
   "description": "Enables night mode for PagalGuy.",
-  "version": "1.6",
+  "version": "1.6.1",
   "manifest_version": 2,
   "content_scripts": [
    {
