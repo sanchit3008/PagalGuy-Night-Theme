@@ -28,7 +28,7 @@ body, section, select {
 }
 
 nav, header {
-	background-color: var(--background-color) !important;
+	background-color: var(--background-color)!important;
 	border-color: var(--background-color) !important;
 }
 
@@ -70,6 +70,10 @@ div.comment-card-header > a {
 	color:var(--text-color)!important;
 }
 
+div.hero-unit.pg-card, div.pg-card.text-center {
+	border: none;
+}
+
 span {
 	color: var(--text-color) !important;
 }
@@ -78,6 +82,10 @@ button, a.pg-btn, a.btn, a.btn-green,ul.menu > li > a {
 	background-color: var(--background-color) !important;
 	color: var(--text-color)  !important;
 	border-color: var(--border-color) !important;
+}
+
+a.pg-btn, a.btn, a.btn-green,ul.menu > li > a, button.pg-btn, button.btn-default, .RichEditor-styleButton {
+	background-color: var(--hover-color) !important;
 }
 
 #pg-login-btn-nt, #pg-create-account-btn-nt {
@@ -228,6 +236,7 @@ div.show > a:hover, div.dropdown-menu.dropdown-right > a:hover  {
 }
 
 #primary-menu > li:not(.current-menu-item) > a {
+	background-color: var(--background-color)!important;
 	border-bottom-color: transparent!important;
 }
 
@@ -243,11 +252,11 @@ ul.pg-navbar-submenu, ul.sub-menu, ul.sub-menu > li.current-menu-item {
 
 ul.pg-navbar-submenu > li > a:hover, ul.sub-menu > li > a:hover {
 	background-color: var(--background-color)!important;
-	border: 0.5px solid;
+	border-none;
+	border-top: 1px solid;
+	border-top-color: var(--border-color)!important; 
 	border-bottom: 0.5px solid;
 	border-bottom-color: var(--border-color)!important; 
-	border-color: var(--border-color)!important;
-
 }
 
 div.notifications-dropdown-content > div > a,  {
@@ -266,6 +275,7 @@ div.notifications-dropdown-content > div {
 
 div.btn-tap-arrow {
  	height: 40px!important;
+ 	background-color: var(--hover-color)!important;
 }
 
 div.widget-item {
@@ -289,6 +299,11 @@ a.read-more-pill {
 
 ul.tabs > li > a {
 	color: var(--text-color)!important;
+}
+
+ul.tabs > li > a.nav-active {
+	color: var(--text-color)!important;
+	border-bottom-color: var(--border-color)!important;
 }
 
 small {
@@ -362,4 +377,13 @@ div.dropdown__content > ul > li:hover {
 	border-top: solid 0.5px;
 	background-color: var(--background-color)!important;
 	border-color: var(--border-color)!important;
+}
+
+a.card-header, a.card-header>div, a.card-header>div>div, a.card-header>div>div>span, div.card-header, div.card-header>a, div.card-header>a>div, div.card-header>a>div>span, div.card-title,
+div.card-title>div, div.card-title>div>div, .notifications-header, div.widget-chat > div.header, div.widget-chat > div.header > div, div.widget-chat > div.header > div > * {
+	background-color: var(--hover-color)!important;
+}
+
+#pgFooter * {
+	background-color: var(--hover-color)!important;
 }
