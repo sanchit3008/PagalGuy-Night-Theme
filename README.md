@@ -23,3 +23,7 @@ If you would like to use this on Google Chrome, download this repository and fol
 <li>Notifications Shade
 
 ![Notifications Shade](https://i.ibb.co/gSJmr8G/image.png "Notifcations Shade")</li>
+
+<li>Profile Page
+
+![Profile Page](https://i.ibb.co/JFQxvMc/image.png "Profile Page")</li>
