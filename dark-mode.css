@@ -1,9 +1,10 @@
 :root {
-  --background-color: #0b0a33;
+  --background-color: #1c1b1b;
   --text-color: #e8e8e8;
-  --hover-color: #292863;
-  --border-color: #5b5a9e;
-  --poll-bg-color: #505091;
+  --hover-color: #373737;
+  --border-color: #4a4a4a;
+  --poll-bg-color: #79797d;
+  --link-color: #c7c3c3;
 }
 
 ::-webkit-scrollbar {
@@ -63,7 +64,7 @@ div.chat-bubble-self > div,  div.chat-bubble-self > div > div > div, div.chat-bu
 }
 
 div.page-section-description > a {
-	color: #c7c3c3!important;
+	color: var(--link-color)!important;
 }
 
 div.comment-card-header > a {
@@ -84,7 +85,7 @@ button, a.pg-btn, a.btn, a.btn-green,ul.menu > li > a {
 	border-color: var(--border-color) !important;
 }
 
-a.pg-btn, a.btn, a.btn-green,ul.menu > li > a, button.pg-btn, button.btn-default, .RichEditor-styleButton {
+a.pg-btn, a.pg-btn *, a.btn, a.btn-green,ul.menu > li > a, button.pg-btn, button.btn-default, .RichEditor-styleButton {
 	background-color: var(--hover-color) !important;
 }
 
@@ -165,7 +166,7 @@ a.ais-pagination--link {
 }
 
 .card-list-item:hover, .list-card-item:hover, .list-card-footer:hover {
-	color: #c7c3c3!important;
+	color: var(--link-color)!important;
 }
 
 .comment-item:hover {
@@ -176,7 +177,7 @@ a.ais-pagination--link {
 }
 
 .user_mention, .pg-breadcrumbs>span>a, a.text-muted, span.tags-links>a, span.cat-links>a, span.author>a, span.posted-on>a>time, div.text-muted>a {
-	color: #c7c3c3 !important;
+	color: var(--link-color) !important;
 }
 
 div.DraftEditor-editorContainer > div > div > div > div > a {
@@ -185,12 +186,12 @@ div.DraftEditor-editorContainer > div > div > div > div > a {
 
 
 div.entity-content > div > p > a {
-	color: #c7c3c3!important;
+	color: var(--link-color)!important;
 }
 
 div.entity-content.truncated:after {
 	background: rgb(11,10,51) !important;
-	background: linear-gradient(to bottom, rgba(11,10,51,1) 0%, rgba(41,40,99,1) 42%) !important;
+	background: linear-gradient(to bottom, rgba(28,27,27,1) 0%, rgba(74,74,74,1) 42%) !important;
 }
 
 div.answered > div.progress-bg, div.answeredNotSelected > div.progress-bg {

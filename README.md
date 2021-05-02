@@ -2,7 +2,7 @@
 
 <h3>Start using now!</h3> 
 <ul>
-  <li>Chrome (coming soon)</li>
+  <li><a href="https://chrome.google.com/webstore/detail/pagalguy-night-mode/bghljjiciedghpedhcpngaadbpiahimb" target="_blank">Chrome Web Store</a></li>
   <li><a href="https://addons.mozilla.org/addon/pagalguy-night-mode" target="_blank">Firefox Add-Ons Store</a></li>
 </ul>
 
@@ -11,20 +11,8 @@
 <ol>
 <li>Home Page
 
-![Home Page](https://i.ibb.co/HxVPBpN/image.png "Home Page")</li>
-
-<li>Direct Messages
-
-![Direct Messages](https://i.ibb.co/HNLLrW2/image.png "Direct Messages")</li>
-
-<li>Actions Menu
-
-![Action Menu](https://i.ibb.co/CbJTwTc/image.png "Actions Menu")</li>
+![Home Page](https://i.ibb.co/J5BMmMZ/image.png "Home Page")</li>
 
 <li>Notifications Shade
 
-![Notifications Shade](https://i.ibb.co/gSJmr8G/image.png "Notifcations Shade")</li>
-
-<li>Profile Page
-
-![Profile Page](https://i.ibb.co/JFQxvMc/image.png "Profile Page")</li>
+![Notifications Shade](https://i.ibb.co/pP27Xdw/image.png "Notifcations Shade")</li>
