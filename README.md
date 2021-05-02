@@ -2,7 +2,7 @@
 
 <h3>Start using now!</h3> 
 <ul>
-  <li>Chrome (coming soon)</li>
+  <li><a href="https://chrome.google.com/webstore/detail/pagalguy-night-mode/bghljjiciedghpedhcpngaadbpiahimb" target="_blank">Chrome Web Store</a></li>
   <li><a href="https://addons.mozilla.org/addon/pagalguy-night-mode" target="_blank">Firefox Add-Ons Store</a></li>
 </ul>
 
