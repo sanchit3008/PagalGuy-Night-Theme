@@ -10,16 +10,16 @@ If you would like to use this on Google Chrome, download this repository and fol
 <ol>
 <li>Home Page
 
-![Home Page](https://i.ibb.co/Xb1531X/image.png "Home Page")</li>
+![Home Page](https://i.ibb.co/HxVPBpN/image.png "Home Page")</li>
 
 <li>Direct Messages
 
-![Direct Messages](https://i.ibb.co/560t1vy/image.png "Direct Messages")</li>
+![Direct Messages](https://i.ibb.co/HNLLrW2/image.png "Direct Messages")</li>
 
 <li>Actions Menu
 
-![Action Menu](https://i.ibb.co/dpnHGxt/image.png "Actions Menu")</li>
+![Action Menu](https://i.ibb.co/CbJTwTc/image.png "Actions Menu")</li>
 
 <li>Notifications Shade
 
-![Notifications Shade](https://i.ibb.co/StmtqNX/image.png "Notifcations Shade")</li>
+![Notifications Shade](https://i.ibb.co/gSJmr8G/image.png "Notifcations Shade")</li>
