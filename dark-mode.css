@@ -169,6 +169,10 @@ a.ais-pagination--link {
 	color: #c7c3c3 !important;
 }
 
+div.DraftEditor-editorContainer > div > div > div > div > a {
+	background-color: var(--background-color)!important;
+}
+
 
 div.entity-content > div > p > a {
 	color: #c7c3c3!important;
