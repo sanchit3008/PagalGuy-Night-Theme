@@ -120,7 +120,8 @@ a.notification-item {
 }
 
 a.notification-item:hover {
-	border: solid 0.5px!important;
+	border-top: solid 0.5px!important;
+		border-bottom: solid 0.5px!important;
 	border-color: var(--border-color)!important;
 }
 
@@ -162,7 +163,8 @@ a.ais-pagination--link {
 .comment-item:hover {
 	background-color: var(--background-color) !important;
 	border-color: var(--border-color)!important;
-	border: solid 0.5px;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
 }
 
 .user_mention, .pg-breadcrumbs>span>a, a.text-muted, span.tags-links>a, span.cat-links>a, span.author>a, span.posted-on>a>time, div.text-muted>a {
@@ -216,8 +218,9 @@ div.show > hr, div.dropdown-menu.dropdown-right > hr {
 div.show > a:hover, div.dropdown-menu.dropdown-right > a:hover  {
 	background-color: var(--background-color)!important;
 	color: var(--text-color)!important;
+	border-bottom: solid 1px;
+	border-top: solid 1px;
 	border-color: var(--hover-color)!important;
-	border: solid 1px;
 }
 
 #primary-menu > li.current-menu-item > a {
@@ -261,9 +264,19 @@ div.notifications-dropdown-content > div {
 	overflow-y: hidden;
 }
 
- div.btn-tap-arrow {
+div.btn-tap-arrow {
  	height: 40px!important;
- }
+}
+
+div.widget-item {
+	border: none;
+}
+
+div.widget-item:hover {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: var(--border-color)!important;
+}
 
 span.text-muted > span {
 	background-color: var(--background-color)!important;
@@ -345,7 +358,8 @@ div.dropdown__content {
 }
 
 div.dropdown__content > ul > li:hover {
+	border-bottom: solid 0.5px;
+	border-top: solid 0.5px;
 	background-color: var(--background-color)!important;
 	border-color: var(--border-color)!important;
-	border: solid 0.5px;
 }
