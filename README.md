@@ -1,5 +1,4 @@
 # PagalGuy-Night-Theme 🌙
-Code for the Chrome extension to enable night theme on pagalguy.com. 
 
 <h3>Start using now!</h3> 
 <ul>
