@@ -85,7 +85,7 @@ button, a.pg-btn, a.btn, a.btn-green,ul.menu > li > a {
 	border-color: var(--border-color) !important;
 }
 
-a.pg-btn, a.btn, a.btn-green,ul.menu > li > a, button.pg-btn, button.btn-default, .RichEditor-styleButton {
+a.pg-btn, a.pg-btn *, a.btn, a.btn-green,ul.menu > li > a, button.pg-btn, button.btn-default, .RichEditor-styleButton {
 	background-color: var(--hover-color) !important;
 }
 
