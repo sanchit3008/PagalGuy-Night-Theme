@@ -4,7 +4,7 @@ Code for the Chrome extension to enable night theme on pagalguy.com.
 <h3>Start using now!</h3> 
 <ul>
   <li>Chrome (coming soon)</li>
-  <li><a href="https://addons.mozilla.org/addon/pagalguy-night-mode">Firefox Add-Ons Store</a></li>
+  <li><a href="https://addons.mozilla.org/addon/pagalguy-night-mode" target="_blank">Firefox Add-Ons Store</a></li>
 </ul>
 
 <h3>Screenshots</h3> 
