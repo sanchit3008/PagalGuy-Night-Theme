@@ -12,7 +12,7 @@
   "author": "Sanchit Agarwal",
   "permissions": [ "https://*.pagalguy.com/*"],
   "description": "Enables night mode for PagalGuy.",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "manifest_version": 2,
   "content_scripts": [
    {

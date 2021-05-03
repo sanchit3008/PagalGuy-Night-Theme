@@ -4,7 +4,8 @@
   --hover-color: #373737;
   --border-color: #4a4a4a;
   --poll-bg-color: #79797d;
-  --link-color: #c7c3c3;
+  --light-text-color: #c7c3c3;
+  --link-color: #94bdff;
 }
 
 ::-webkit-scrollbar {
@@ -64,7 +65,7 @@ div.chat-bubble-self > div,  div.chat-bubble-self > div > div > div, div.chat-bu
 }
 
 div.page-section-description > a {
-	color: var(--link-color)!important;
+	color: var(--light-text-color)!important;
 }
 
 div.comment-card-header > a {
@@ -166,18 +167,11 @@ a.ais-pagination--link {
 }
 
 .card-list-item:hover, .list-card-item:hover, .list-card-footer:hover {
-	color: var(--link-color)!important;
+	color: var(--light-text-color)!important;
 }
 
 .comment-item:hover {
 	background-color: var(--background-color) !important;
-	border-color: var(--border-color)!important;
-	border-bottom: 1px solid;
-	border-top: 1px solid;
-}
-
-.user_mention, .pg-breadcrumbs>span>a, a.text-muted, span.tags-links>a, span.cat-links>a, span.author>a, span.posted-on>a>time, div.text-muted>a {
-	color: var(--link-color) !important;
 }
 
 div.DraftEditor-editorContainer > div > div > div > div > a {
@@ -185,9 +179,14 @@ div.DraftEditor-editorContainer > div > div > div > div > a {
 }
 
 
-div.entity-content > div > p > a {
+div.entity-content > div > p > a, .user_mention, div.entity-content > div > p>span>a {
 	color: var(--link-color)!important;
 }
+
+.pg-breadcrumbs>span>a, a.text-muted, span.tags-links>a, span.cat-links>a, span.author>a, span.posted-on>a>time,  div.text-muted>a {
+	color: var(--light-text-color) !important;
+}
+
 
 div.entity-content.truncated:after {
 	background: rgb(11,10,51) !important;
